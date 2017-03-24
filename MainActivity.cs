@@ -21,6 +21,10 @@ namespace TestLogs
 			Button button = FindViewById<Button>(Resource.Id.myButton);
 
 			button.Click += delegate { button.Text = $"{count++} clicks!"; };
+
+			button.Click += delegate { button.Text = $"{count++} clicks!"; };
+			//Verifying test case
+
 		}
 	}
 }
