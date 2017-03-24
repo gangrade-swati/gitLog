@@ -22,8 +22,10 @@ namespace TestLogs
 
 			button.Click += delegate { button.Text = $"{count++} clicks!"; };
 
-			button.Click += delegate { button.Text = $"{count++} clicks!"; };
 			//Verifying test case
+
+			button.Click += delegate { button.Text = $"{count++} clicks!"; };
+		
 
 		}
 	}
